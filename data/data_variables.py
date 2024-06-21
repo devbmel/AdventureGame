@@ -1,7 +1,8 @@
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 
-import data_fr as dfr
-import data_en as den
+import .data_fr as dfr
+import .data_en as den
+
 
 data_story: Tuple[Dict[str, str], Dict[str, str]] = (
     {
@@ -54,3 +55,23 @@ data_story: Tuple[Dict[str, str], Dict[str, str]] = (
         "epilogue": ""
     }
 )
+
+parameters_user_choices: Dict[str, Tuple[str, List[str]]] = {
+    "ask_language": (
+        "Quel langage souhaitez vous utliser?",
+        ["français", "anglais"]
+    ),
+   "ask_user_first_choice": (
+        "Alaric prit un moment pour réfléchir, pesant les avantages et les inconvénients de chaque route. Quel chemin choisiriez-vous pour commencer cette aventure périlleuse ?",
+        ["Les Marécages Nauséabonds : Un chemin difficile à travers des terres sombres et dangereuses, mais peut-être riche en récompenses cachées.",
+         "La Prairie Tranquille : Un voyage sûr et apaisant à travers une nature paisible, idéal pour se préparer calmement à la suite.",
+         "Le Désert Ardent : Une route ardue et éprouvante à travers un désert brûlant, promettant de révéler des secrets enfouis et des trésors inestimables."]
+    ),
+   "riddle_sphynx": (
+        "Je suis toujours en mouvement, jamais immobile. Pourtant, sans moi, rien ne peut vivre. Qui suis-je ?",
+        ["Le Vent", "Le Temps", "L'Eau"]
+    ),
+
+   
+   
+}

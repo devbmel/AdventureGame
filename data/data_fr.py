@@ -222,6 +222,10 @@ au cœur de la forêt. Là, un grand sphinx reposait majestueusement sur un roch
 ses yeux dorés observant attentivement les nouveaux arrivants. %user_name% sentit
 une vague d'appréhension, mais il savait qu'il devait faire face à ce gardien pour
 obtenir le cristal.
+"Je suis le gardien de ce cristal," déclara le sphinx d'une voix grave. "Pour 
+prouver ta valeur, tu dois répondre correctement à mon énigme. Si tu échoues, 
+il te faudra m'affronter."
+Le sphinx se redressa, et avec une lenteur théâtrale, posa son énigme :
 """
 
 fight_spinx_fr: str = """
